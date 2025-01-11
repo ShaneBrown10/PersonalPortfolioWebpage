@@ -4,13 +4,13 @@ body {
     margin: auto;
     padding: 0;
     line-height: 1.6;
-    background-color: #b7cec1;
+    background-color: #b65adbb0;
    
 }
 
 /* Header----------------------------------- */
 header {
-    background-color: #6b92ac;
+    background-color: #fc00009d;
     color: white;
     padding: 10px 0;
     text-align: center;
