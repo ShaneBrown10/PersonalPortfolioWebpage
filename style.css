@@ -1,0 +1,146 @@
+/* General Styles--------------------------- */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: auto;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #b7cec1;
+   
+}
+
+/* Header----------------------------------- */
+header {
+    background-color: #6b92ac;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 50px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* About Section-------------------------------- */
+#about {
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+#about img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.about-text {
+    border: 2px solid #ffffff; 
+    padding: 10px; 
+    margin: 10px; 
+    border-radius: 5px; 
+    background-color: #ffffff; 
+    font-size: 90%; 
+    font-style: italic; 
+}
+
+/* Projects Section---------------------------- */
+#projects {
+    padding: 20px;
+ }
+
+#projects img {
+    max-width: 400px;
+    border-radius: 20%;
+    margin-bottom: 10px;
+    
+}
+
+.img-resize {
+    width: 300px;
+    height: 300px;
+}
+
+#projects article { 
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#projects article img {
+    max-width: 50%;
+    height: 50%;
+}
+
+#projects article h3 {
+    margin-top: 1px;
+}
+
+
+/* Contact Section----------------------------- */
+#contact {
+    background-color: white;
+    padding: 20px;
+}
+
+.contact-section {
+    margin-top: 10px;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Footer---------------------------------- */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
