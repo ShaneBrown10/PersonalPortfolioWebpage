@@ -68,18 +68,6 @@ nav ul li a:hover {
     padding: 20px;
  }
 
-#projects img {
-    max-width: 400px;
-    border-radius: 20%;
-    margin-bottom: 10px;
-    
-}
-
-.img-resize {
-    width: 300px;
-    height: 300px;
-}
-
 #projects article { 
     background-color: rgb(255, 255, 255);
     margin-bottom: 20px;
@@ -87,9 +75,26 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+.container { display: flex; flex-wrap: nowrap; /*overflow-x: auto; /* Allows horizontal scrolling if needed */ 
+    gap: 16px; padding: 100px; 
+} 
+
+.articlez { border: 1px solid #ccc; 
+    border-radius: 15px;   
+    padding: 16px; 
+    background-color: #ffffff; 
+    min-width: 50%; /* Ensure the articles have a minimum width */ 
+} 
+
+.articlez h2 { margin-top: 0; } 
+
+.articlez img { width: 95%; /* Ensure the image takes the full width of its container */ 
+        height: 10px; /* Set a fixed height for all images */ 
+        object-fit: scale-down; /* Ensure the image is not cropped */ 
+    }
 #projects article img {
-    max-width: 50%;
-    height: 50%;
+    max-width: 500%;
+    height: 500%;
 }
 
 #projects article h3 {
